@@ -30,11 +30,11 @@ package_targets.append(
     )
 )
 let package = Package(
-    name: "PythonLib",
+    name: "PythonLib-iOS",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "PythonLib",
+            name: "PythonLib-iOS",
             targets: ["PythonLib-iOS"]
         ),
     ],
